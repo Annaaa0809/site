@@ -1,0 +1,127 @@
+.friends .img{
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.friends{
+    margin-left: 50px;
+    width: 400px;
+    border: solid;
+    display: inline-block;
+    height: 500px;
+}
+
+.friends img{
+ transition: 2s;
+} 
+.friends img:hover{
+
+transform: scale(1.1);
+} 
+
+.friends .name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.friends:hover{
+   border-color: gray; 
+}
+
+
+.list{
+    background-color:rgb(50, 50, 50);
+}
+.list li{
+    display: inline-block;
+    color: rgb(252, 252, 252);
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+li:hover{
+    background-color: grey;
+}
+.ulA{
+    display: block;
+    padding: 14px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+} 
+
+.title{
+    text-align: center;
+}
+
+.anime{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 400px;
+    border: 1px solid black;
+    height: 500px;
+}
+
+.anime img{
+    width: 400px;
+    height: 400px;
+}
+.anime{
+    
+    padding: 14px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+} 
+.anime .animename{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.list2 li{
+ display: inline-block;
+ color: rgb(255, 255, 255);
+ font-size: 20px;
+ margin-left: 20px;
+ height: 50px;
+}
+.list2 li:hover{
+   background-color: gray; 
+
+}
+.list2 a{
+    display: block;
+    padding: 14px;
+    color: rgb(255, 255, 255);
+    text-decoration: none ;
+}
+.list2{ 
+    height: 50px;
+    list-style-type:none;
+    background-color: rgb(0, 0, 0);
+}
+
+.me{
+    margin-left: 70px;
+}
+
+.text{ 
+    margin-left: 20px ;
+    font-size: 20px;
+}
+.titleFriends{
+    text-align: center;
+}
+.fjh{
+    color: red;
+    transition: 2s;
+}
+
+.fjh:hover{
+    transform: translateY(10px)
+}
+
